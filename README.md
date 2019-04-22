@@ -1,4 +1,4 @@
-# Magisk 微信指纹支付 (Fingerprint pay for WeChat)
+# Magisk 支付宝指纹支付 (Fingerprint pay for Alipay)
 
 Magisk 版 [Xposed Fingerprint pay](https://github.com/eritpchy/Xposed-Fingerprint-pay)
 
@@ -12,7 +12,6 @@ Magisk 版 [Xposed Fingerprint pay](https://github.com/eritpchy/Xposed-Fingerpri
 
 1. 利用 [Magisk](https://github.com/topjohnwu/Magisk) 的 [Riru](https://github.com/RikkaApps/Riru) 注入 zygote 进程
 2. 加载指纹支付代码
-3. 利用 [SandHook](https://github.com/ganyao114/SandHook) 完成注入功能
 
 ## 为什么要做出这个呢?
 
@@ -24,20 +23,19 @@ Magisk 版 [Xposed Fingerprint pay](https://github.com/eritpchy/Xposed-Fingerpri
 ## 如何使用
 
 1. 下载 [magisk-riru-core.zip](https://github.com/RikkaApps/Riru/releases) 进手机
-2. 下载 [magisk-riru-module-xfingerprint-pay-wechat.zip](https://github.com/eritpchy/Fingerprint-pay-magisk-wechat/releases) 进手机
+2. 下载 [magisk-riru-module-xfingerprint-pay-alipay.zip](https://github.com/eritpchy/Fingerprint-pay-magisk-alipay/releases) 进手机
 3. 进入 Magisk Manager, 模块, 安装这两个模块, 不要重启
 4. 勾选启用两个模块, 重启手机
 5. Enjoy
 
 ## 编译
 
-1. 运行./gradlew :riru-module-xfingerprint-pay-wechat:zip
+1. 运行./gradlew :riru-module-xfingerprint-pay-alipay:zip
 2. 编译文件位于./release
 
 ## 致谢
 
 * [Riru](https://github.com/RikkaApps/Riru)
-* [SandHook](https://github.com/ganyao114/SandHook)
 * [EdXposed](https://github.com/ElderDrivers/EdXposed)
 * [Magisk](https://github.com/topjohnwu/Magisk)
 
