@@ -1,1 +1,7 @@
-./gradlew clean && ./gradlew :riru-module-xfingerprint-pay-alipay:zip && adb push ./release/* /sdcard/Download/
+#!/bin/bash
+set -e
+cd ${0%/*}
+./gradlew clean
+./gradlew :module:assembleRelease
+adb shell rm -fv "/data/local/tmp/libxfingerprint_pay_alipay.dex"
+adb push ./out/*.zip /sdcard/Download/

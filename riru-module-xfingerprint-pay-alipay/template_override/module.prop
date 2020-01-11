@@ -1,7 +1,0 @@
-id=riru-module-xfingerprint-pay-alipay
-name=指纹支付-支付宝
-version=v3.9.2
-versionCode=1
-author=Jason Eric
-description=让支付宝支持指纹支付 Fingerprint pay for Alipay
-minMagisk=17000
