@@ -127,9 +127,9 @@ EXPORT int nativeForkAndSpecializePost(JNIEnv *env, jclass clazz, jint res) {
             char appCacheDir[PATH_MAX] = {0};
             snprintf(appCacheDir, PATH_MAX - 1, "%s/cache", sAppDataDir);
 
-            const char *dexPath = "/data/local/tmp/libxfingerprint_pay_alipay.dex";
+            const char *dexPath = "/data/local/tmp/libriru_module_xfingerprint_pay_alipay.dex";
             if (access(dexPath, 0) != 0) {
-                dexPath = "/system/framework/libxfingerprint_pay_alipay.dex";
+                dexPath = "/system/framework/libriru_module_xfingerprint_pay_alipay.dex";
             }
             loadDex(env,
                 env->NewStringUTF(dexPath),
