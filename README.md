@@ -36,6 +36,11 @@ Magisk 版 [Xposed Fingerprint pay](https://github.com/eritpchy/Xposed-Fingerpri
 4. 勾选启用两个模块, 重启手机
 5. Enjoy
 
+    [图文教程](https://github.com/eritpchy/Xposed-Fingerprint-pay/tree/master/doc/Alipay)
+
+## 常见问题
+1. 由于缺少帐号调试, 支付宝超过6位数的长密码, 不支持!
+
 ## 编译
 
 1. 运行./gradlew :module:assembleRelease
