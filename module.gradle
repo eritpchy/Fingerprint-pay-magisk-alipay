@@ -4,7 +4,7 @@ ext {
     moduleName = "指纹支付 - 支付宝"
     moduleAuthor = "Jason Eric"
     moduleDescription = "让支付宝支持指纹支付 Fingerprint pay for Alipay."
-    moduleVersion = "v3.9.21"
+    moduleVersion = "v3.9.22"
     moduleVersionCode = 2
 
     moduleMinRiruApiVersion = 9
